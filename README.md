@@ -1,10 +1,14 @@
 # win7-anaconda-spark-安装过程
 
+python 3.6与spark 2.1及以下版本是不兼容的！！！！掉进了一个大坑
+还是不对，只能装Python 2.7了  
+只有走过所有的坑，才知道哪里有坑
+
 所有安装都不要安装在不包含空格的文件夹中！  
 所有安装都不要安装在不包含空格的文件夹中！  
 所有安装都不要安装在不包含空格的文件夹中！  
 
-Anaconda 4.3下载地址：https://www.continuum.io/downloads/  
+Anaconda 4.2.0下载地址：https://www.continuum.io/downloads/
 jdk 1.8下载地址：http://www.oracle.com/technetwork/java/javase/downloads/index.html  
 spark 2.11下载地址：http://spark.apache.org/downloads.html  
 hadoop 2.73下载地址：http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-2.7.3/hadoop-2.7.3.tar.gz  
