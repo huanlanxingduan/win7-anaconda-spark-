@@ -24,3 +24,9 @@ python 3.6与spark 2.1及以下版本是不兼容的！！！！掉进了一个�
 7. 将（D:\Windows_Spark\spark-1.6.2-bin-hadoop2.6\python）中的pyspark文件夹拷贝到（C:\Program_Files\Anaconda3\Lib\site-packages）中
 8. 在cmd中运行`pip install py4j`安装py4j
 9. 安装成功后，在cmd中输入pyspark，运行成功！
+
+在运行程序时会有警告：  
+`WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable`  
+这是因为hadoop的本地库版本只有32位的，所以在64位的机子上面会出问题  
+解决方法：  
+下载64位的本地库，下载地址：http://dl.bintray.com/sequenceiq/sequenceiq-bin/ ，解压文件后替换掉`D:\Windows_Spark\hadoop-2.7.3\lib\native`中的内容
