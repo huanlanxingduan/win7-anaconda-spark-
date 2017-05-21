@@ -11,8 +11,9 @@ python 3.6与spark 2.1及以下版本是不兼容的！！！！掉进了一个�
 - Anaconda3 4.2.0下载地址：https://www.continuum.io/downloads/   
 - jdk 1.8下载地址：http://www.oracle.com/technetwork/java/javase/downloads/index.html  
 - spark-1.6.2-bin-hadoop2.6 下载地址：http://spark.apache.org/downloads.html ，选择Pre-built for Apache Hadoop 2.6  
-- hadoop-2.6.0 下载地址：https://archive.apache.org/dist/hadoop/common/  
-其中spark的版本要和hadoop对应  
+- hadoop-2.6.0 下载地址：https://archive.apache.org/dist/hadoop/common/  
+- scala 下载地址：http://www.scala-lang.org/download/all.html  
+其中spark的版本要和hadoop对应   
 
 第二步 开始安装  
 1. 安装Anaconda，我的安装目录为C:\ProgramData\  
